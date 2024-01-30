@@ -16,3 +16,5 @@ npx - Node package Executer
 Vite: It is a build tool that aims to provide a faster and leaner development experience for modern web projects.
 
 Utility: npm create vite@latest
+
+# 🌟 Features
