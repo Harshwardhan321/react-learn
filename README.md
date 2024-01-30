@@ -6,6 +6,7 @@ Learning react and building projects
 
 
 ## Getting Started with Create React App
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Below you will find some information on how to perform common tasks.
+Basic way to create react app  - "npx create-react-app" (Utility/software to create react app)
+Note - It takes much time  to install the packages. So, there is another way to install which we will dicuss later.
+npx - Node package Executer
