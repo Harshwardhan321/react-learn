@@ -1,4 +1,4 @@
-# react-learn
+# react-learn 😀
 
 Learning react and building projects
 
@@ -12,13 +12,13 @@ Basic way to create react app - "npx create-react-app" (Utility/software to crea
 Note - It takes much time to install the packages. So, there is another way to install which we will dicuss later.
 npx - Node package Executer
 
-## Getting Started with vite
+## Getting Started with vite ✌️
 
 Vite: It is a build tool that aims to provide a faster and leaner development experience for modern web projects.
 
 Utility: npm create vite@latest
 
-## Custom React
+## Custom React 🛃
 
 **Custom Rendering Functions**:Custom rendering functions are reusable blocks of code that allow us to generate and insert HTML elements into the DOM dynamically. They're particularly useful in frameworks like React, where we often need to render components based on data or user interactions.
 
@@ -34,7 +34,7 @@ Utility: npm create vite@latest
 
 **JavaScript DOM Manipulation:** "JavaScript DOM manipulation involves using JavaScript to interact with the Document Object Model, which represents the structure of the webpage. We can create, modify, or remove DOM elements, change their attributes, styles, or content, and respond to user interactions. This allows us to create dynamic and interactive web experiences.
 
-## Hooks
+## Hooks 🪝
 
 In React, hooks are functions that enable functional components to access React features such as state, lifecycle methods, context, and more. Hooks were introduced in React 16.8 to provide a way to use state and other React features without writing a class. They allow developers to reuse stateful logic across components without changing the component hierarchy.
 
@@ -58,5 +58,5 @@ In React, hooks are functions that enable functional components to access React 
 
 **useDebugValue**: Used to display a label for custom hooks in React DevTools.
 
-he
+
 
