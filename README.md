@@ -39,14 +39,24 @@ Utility: npm create vite@latest
 In React, hooks are functions that enable functional components to access React features such as state, lifecycle methods, context, and more. Hooks were introduced in React 16.8 to provide a way to use state and other React features without writing a class. They allow developers to reuse stateful logic across components without changing the component hierarchy.
 
 **useState**: Allows functional components to manage local state.
+
 **useEffect**: Enables performing side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM.
+
 **useContext**: Provides access to the nearest Context object within a functional component.
+
 **useReducer**: An alternative to useState. It accepts a reducer function with the current state and an action to compute a new state.
+
 **useCallback**: Returns a memoized callback function that only changes if one of the dependencies has changed.
+
 **useMemo**: Returns a memoized value. It is similar to useCallback, but it memoizes any value (not just functions).
+
 **useRef**: Returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component.
+
 **useImperativeHandle**: Customizes the instance value that is exposed when using ref.
+
 **useLayoutEffect**: Similar to useEffect, but it fires synchronously after all DOM mutations. It is useful for measurements or DOM mutations that need to happen synchronously.
+
 **useDebugValue**: Used to display a label for custom hooks in React DevTools.
-hey
+
+he
 
