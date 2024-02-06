@@ -1,14 +1,15 @@
 # react-learn
-Learning react and building projects 
+
+Learning react and building projects
 
 ### To build websites - React Library + react-dom
-### To build Apps - React Library + react-native
 
+### To build Apps - React Library + react-native
 
 ## Create React App
 
-Basic way to create react app  - "npx create-react-app" (Utility/software to create react app)
-Note - It takes much time  to install the packages. So, there is another way to install which we will dicuss later.
+Basic way to create react app - "npx create-react-app" (Utility/software to create react app)
+Note - It takes much time to install the packages. So, there is another way to install which we will dicuss later.
 npx - Node package Executer
 
 ## Getting Started with vite
@@ -17,4 +18,18 @@ Vite: It is a build tool that aims to provide a faster and leaner development ex
 
 Utility: npm create vite@latest
 
-# 🌟 Features
+# Custom React
+
+**Custom Rendering Functions**:Custom rendering functions are reusable blocks of code that allow us to generate and insert HTML elements into the DOM dynamically. They're particularly useful in frameworks like React, where we often need to render components based on data or user interactions.
+
+**Manipulating DOM Elements:** When we manipulate DOM elements, we're essentially interacting with the structure of the webpage directly using JavaScript. We can create new elements, modify their attributes or content, and insert them into the document. This process allows us to dynamically update the webpage without needing to reload the entire page.
+
+**React-like Element Structure:** In a React-like element structure, we typically have three main properties: type, props, and children. The type property specifies the type of HTML element we want to render, such as 'div' or 'a'. The props property contains additional attributes we want to assign to the element, like 'href' or 'target'. Finally, the children property holds any nested elements or text content that should be included inside the element.
+
+**Looping through Object Properties:** When we loop through object properties, we're iterating over each key-value pair in an object and performing some action based on those properties. In JavaScript, we can use techniques like for...in loops to iterate over an object's properties. This allows us to dynamically handle properties without needing to know them beforehand.
+
+**Handling Props and Children:** Handling props and children is essential in React components. Props represent the data that a component receives from its parent, and children are the components or elements nested within it. We need to properly handle these props and children to ensure that our components render correctly and behave as expected.
+
+**React Component Lifecycle:**In React, components go through a lifecycle of events from initialization to destruction. For example, componentDidMount is called after a component is rendered for the first time, while componentWillUnmount is called just before a component is removed from the DOM. Understanding these lifecycle methods allows us to perform actions at specific points in a component's lifespan, such as fetching data or cleaning up resources.
+
+**JavaScript DOM Manipulation:** "JavaScript DOM manipulation involves using JavaScript to interact with the Document Object Model, which represents the structure of the webpage. We can create, modify, or remove DOM elements, change their attributes, styles, or content, and respond to user interactions. This allows us to create dynamic and interactive web experiences."
