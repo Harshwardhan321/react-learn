@@ -67,7 +67,6 @@ Source Article : [React Fibre](https://github.com/acdlite/react-fiber-architectu
 **Key features of React Fiber include**:
 
 **Incremental Rendering**: Splitting rendering work into smaller units and spreading it over multiple frames.
-
 **Pause, Abort, or Reuse Work**: Ability to pause, abort, or reuse rendering work as new updates come in.
 
 **Priority Assignment**: Assigning priority to different types of rendering updates to ensure smoother user experience.
