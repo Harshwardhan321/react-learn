@@ -58,7 +58,21 @@ In React, hooks are functions that enable functional components to access React 
 
 **useDebugValue**: Used to display a label for custom hooks in React DevTools.
 
-### React Fibre
+### React Fibre 🪛
 
 Source Article : [React Fibre](https://github.com/acdlite/react-fiber-architecture)
 
+**React Fiber** is a reimplementation of React's core algorithm aimed at improving performance and enabling new features such as animation, layout, and gestures. It introduces incremental rendering, allowing rendering work to be split into smaller chunks and spread across multiple frames.
+
+**Key features of React Fiber include**:
+
+**Incremental Rendering**: Splitting rendering work into smaller units and spreading it over multiple frames.
+**Pause, Abort, or Reuse Work**: Ability to pause, abort, or reuse rendering work as new updates come in.
+**Priority Assignment**: Assigning priority to different types of rendering updates to ensure smoother user experience.
+**New Concurrency Primitives**: Introducing new concurrency primitives to handle rendering work more efficiently.
+
+**Key Concepts**:
+
+**Reconciliation**: The algorithm used by React to determine which parts of the UI need to be updated.
+**Scheduling**: The process of determining when rendering work should be performed and assigning priority to different types of work.
+**Fibers**: Lower-level abstractions representing units of rendering work in React Fiber. Fibers track component instances and their rendering output.
